@@ -15,6 +15,7 @@
 		C55738751D589ECF0065D2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C55738731D589ECF0065D2E1 /* LaunchScreen.storyboard */; };
 		C55738801D589ECF0065D2E1 /* learning_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C557387F1D589ECF0065D2E1 /* learning_iosTests.m */; };
 		C557388B1D589ECF0065D2E1 /* learning_iosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C557388A1D589ECF0065D2E1 /* learning_iosUITests.m */; };
+		C557389A1D589F9A0065D2E1 /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C55738991D589F9A0065D2E1 /* FirstClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C55738861D589ECF0065D2E1 /* learning iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "learning iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C557388A1D589ECF0065D2E1 /* learning_iosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learning_iosUITests.m; sourceTree = "<group>"; };
 		C557388C1D589ECF0065D2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C55738981D589F9A0065D2E1 /* FirstClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
+		C55738991D589F9A0065D2E1 /* FirstClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		C55738591D589ECE0065D2E1 = {
 			isa = PBXGroup;
 			children = (
+				C55738981D589F9A0065D2E1 /* FirstClass.h */,
+				C55738991D589F9A0065D2E1 /* FirstClass.m */,
 				C55738641D589ECE0065D2E1 /* learning ios */,
 				C557387E1D589ECF0065D2E1 /* learning iosTests */,
 				C55738891D589ECF0065D2E1 /* learning iosUITests */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C557386D1D589ECE0065D2E1 /* ViewController.m in Sources */,
+				C557389A1D589F9A0065D2E1 /* FirstClass.m in Sources */,
 				C557386A1D589ECE0065D2E1 /* AppDelegate.m in Sources */,
 				C55738671D589ECE0065D2E1 /* main.m in Sources */,
 			);
